@@ -1,5 +1,3 @@
-# PDP_Newton
-
 A particle is a small rigid body that obeys Newton’s laws of motion. It has an initial state, and it is possible to compute its state at a given time by applying Newton’s laws. The  Particle interface provided to you summarizes the operations expected from this particle. Please generate Javadoc for it to read its comments.
 
 At time t, Newton’s laws of motion state that the displacement of this particle (from its position at time 0) is given by:
