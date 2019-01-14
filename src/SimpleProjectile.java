@@ -64,6 +64,6 @@ public class SimpleProjectile implements Particle {
                       time, nx, ny);
       return str;
     }
-    return toString();
+    return toString(); //return the final string
   }
 }
