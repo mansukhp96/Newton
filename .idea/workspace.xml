@@ -23,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SimpleProjectile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="66" column="48" selection-start-line="66" selection-start-column="48" selection-end-line="66" selection-end-column="48" />
+            <state relative-caret-position="561">
+              <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -32,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/SimpleProjectileTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="53" column="74" selection-start-line="53" selection-start-column="74" selection-end-line="53" selection-end-column="74" />
+            <state relative-caret-position="-340">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,7 +75,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -115,6 +114,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -124,7 +124,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547493166822" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547495347475" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -154,22 +154,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SimpleProjectileTest.testNegXVelocityMaxTime">
+  <component name="RunManager" selected="JUnit.SimpleProjectileTest.testNegYMaxTime">
     <configuration name="SimpleProjectileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab1_Newton" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SimpleProjectileTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleProjectileTest.testNegXMaxTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab1_Newton" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SimpleProjectileTest" />
-      <option name="METHOD_NAME" value="testNegXMaxTime" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -204,13 +194,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SimpleProjectileTest.testTimeOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab1_Newton" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SimpleProjectileTest" />
+      <option name="METHOD_NAME" value="testTimeOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SimpleProjectileTest.testNegYMaxTime" />
+        <item itemvalue="JUnit.SimpleProjectileTest.testTimeOne" />
         <item itemvalue="JUnit.SimpleProjectileTest.testNegXVelocityMaxTime" />
         <item itemvalue="JUnit.SimpleProjectileTest" />
         <item itemvalue="JUnit.SimpleProjectileTest.testNegXVelocity" />
-        <item itemvalue="JUnit.SimpleProjectileTest.testNegYMaxTime" />
-        <item itemvalue="JUnit.SimpleProjectileTest.testNegXMaxTime" />
       </list>
     </recent_temporary>
   </component>
@@ -229,26 +229,12 @@
       <workItem from="1547296747079" duration="22488000" />
       <workItem from="1547482895247" duration="4195000" />
       <workItem from="1547487269461" duration="168000" />
-      <workItem from="1547492989667" duration="177000" />
+      <workItem from="1547492989667" duration="371000" />
+      <workItem from="1547494508519" duration="1032000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SimpleProjectileTest_testTimeOne - 2019.01.14 at 12h 02m 57s.xml">
-      <configuration name="SimpleProjectileTest.testTimeOne" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SimpleProjectileTest_testNegX - 2019.01.14 at 12h 14m 39s.xml">
-      <configuration name="SimpleProjectileTest.testNegX" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SimpleProjectileTest_testNegX - 2019.01.14 at 12h 15m 18s.xml">
-      <configuration name="SimpleProjectileTest.testNegX" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SimpleProjectileTest_testNegY - 2019.01.14 at 12h 16m 05s.xml">
-      <configuration name="SimpleProjectileTest.testNegY" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SimpleProjectileTest_testNegXMaxTime - 2019.01.14 at 12h 16m 35s.xml">
-      <configuration name="SimpleProjectileTest.testNegXMaxTime" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SimpleProjectileTest_testNegYMaxTime - 2019.01.14 at 12h 16m 42s.xml">
       <configuration name="SimpleProjectileTest.testNegYMaxTime" configurationId="JUnit" />
     </history-entry>
@@ -264,15 +250,30 @@
     <history-entry file="SimpleProjectileTest_testNegXVelocityMaxTime - 2019.01.14 at 12h 27m 42s.xml">
       <configuration name="SimpleProjectileTest.testNegXVelocityMaxTime" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SimpleProjectileTest_testTimeOne - 2019.01.14 at 14h 35m 47s.xml">
+      <configuration name="SimpleProjectileTest.testTimeOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleProjectileTest_testTimeOne - 2019.01.14 at 14h 37m 19s.xml">
+      <configuration name="SimpleProjectileTest.testTimeOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleProjectileTest_testTimeOne - 2019.01.14 at 14h 38m 49s.xml">
+      <configuration name="SimpleProjectileTest.testTimeOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleProjectileTest_testNegYMaxTime - 2019.01.14 at 14h 39m 12s.xml">
+      <configuration name="SimpleProjectileTest.testNegYMaxTime" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleProjectileTest_testNegYMaxTime - 2019.01.14 at 14h 39m 33s.xml">
+      <configuration name="SimpleProjectileTest.testNegYMaxTime" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68442000" />
+    <option name="totallyTimeSpent" value="69668000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -282,7 +283,7 @@
       <window_info id="Learn" order="7" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -318,8 +319,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/SimpleProjectileTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="53" column="74" selection-start-line="53" selection-start-column="74" selection-end-line="53" selection-end-column="74" />
+        <state relative-caret-position="-340">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -328,8 +329,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SimpleProjectile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="66" column="48" selection-start-line="66" selection-start-column="48" selection-end-line="66" selection-end-column="48" />
+        <state relative-caret-position="561">
+          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
         </state>
       </provider>
     </entry>

@@ -10,7 +10,7 @@ public class SimpleProjectileTest {
   @Before
   public void setUp() {
 
-    sp = new SimpleProjectile(2.0f, 1.0f, 1.00f, 0);
+    sp = new SimpleProjectile(2.0f, -1.0f, 1.00f, 0);
 
   }
 

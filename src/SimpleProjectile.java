@@ -30,12 +30,13 @@ public class SimpleProjectile implements Particle {
     float timeNew = 0; //to fix the time change in the string
 
     if (time > 0) { // when time is positive
+
       float ny = y + (vy * time) + (0.5f * -ay * (time * time)); // Y- component calc.
+
       if (ny <= y) { //After hitting ground to fix x and y
         timeNew = time;
         ny = y;
         time = (2 * vy / ay); // Time to hit the ground.
-        float nx = x + (vx * time) + (0.5f * -ax * (time * time)); // X - when already hit ground.
       }
 
       float nx = x + (vx * time) + (0.5f * -ax * (time * time)); // X - component calc.
